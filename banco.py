@@ -8,7 +8,7 @@ colorama.init(autoreset = True)
 operacao = 12
 saldo = 0
 extrato = []
-usuario = ('João')
+usuario = ('JoãoDiniz')
 senha = ('zxcvbnm')
 
 print('\n')
