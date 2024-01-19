@@ -8,8 +8,8 @@ colorama.init(autoreset = True)
 operacao = 12
 saldo = 0
 extrato = []
-usuario = ('JoãoDiniz')
-senha = ('zxcvbnm')
+usuario = ('jose')
+senha = ('1234')
 
 print('\n')
 print(f'{Fore.RED}--------------{Fore.RESET}{Fore.BLUE}CADASTRO{Fore.RESET}{Fore.RED}--------------{Fore.RESET}'.center(30))
