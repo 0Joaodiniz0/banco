@@ -42,7 +42,7 @@ if usuario == usuario1 and senha == senha1 :
         
         if operacao == 1:
             saque = float(input('quanto você deseja sacar: '))
-            if saldo <= saque:
+            if saldo < saque or saque == 0 :
                 print('------------------------------------')
                 print(f'{Fore.RED}SALDO INSULFICIENTE{Fore.RESET}' .center(43))
                 print('------------------------------------')
